@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Sofia+Sans+Extra+Condensed:wght@400;700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+header {
+  background: url(../img/header-bg.jpg) no-repeat center top / cover;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 300px;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 30px;
+  margin-right: 60px;
+}
+.menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  list-style-type: none;
+}
+.menu li a {
+  margin-right: 40px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.1 em;
+  text-decoration: none;
+  color: #fff;
+}
+.menu li a:hover {
+  border-bottom: 1px solid #fff;
+}
+.tel {
+  margin-left: auto;
+  text-decoration: none;
+  color: #fff;
+}
+.offer {
+  text-transform: uppercase;
+  padding-top: 200px;
+}
+.offer p {
+  font-size: 30px;
+}
+.offer h1 {
+  font-size: 100px;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+.btn {
+  display: block;
+  width: 240px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 20px 50px;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+main {
+  margin-top: 60px;
+}
+main h1 {
+  text-transform: uppercase;
+  margin: 0;
+}
+.articles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.articles-item {
+  width: 450px;
+}
+.articles-item p {
+  text-align: justify;
+}
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.gallery img {
+  transition: all 0.5s ease;
+}
+.gallery img:hover {
+  transform: scale(1.1);
+}
