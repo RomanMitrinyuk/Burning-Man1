@@ -75,11 +75,10 @@ nav {
   background-color: white;
   color: black;
 }
-main {
+section {
   margin-top: 60px;
-  box-sizing: border-box;
 }
-main h1 {
+section h1 {
   text-transform: uppercase;
   margin: 0;
 }
