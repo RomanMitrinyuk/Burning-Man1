@@ -69,6 +69,7 @@ nav {
   color: #fff;
   border: 1px solid #fff;
   padding: 20px 50px;
+  transition-duration: 0.5s;
 }
 .btn:hover {
   background-color: white;
